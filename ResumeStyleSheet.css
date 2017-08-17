@@ -1,0 +1,74 @@
+body {
+    margin: 2em 0.5em 0em 1.5em;
+    font-family: roboto;
+}
+
+#profilePic {
+    display: inline-block;
+    float: right;
+    border: 2px solid aqua;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+#firstName {
+    font-weight: bold;
+}
+
+#basicDetails {
+    display: inline-block;
+    font-size: 2em;
+    margin-left: 0.5em;
+    margin-top: 0.2em;
+}
+
+#completeName {
+    border-bottom: 2px solid black;
+}
+
+#mobileNo {
+    margin-top: 0.5em;
+    font-size: 0.7em;
+}
+
+#email {
+    font-size: 0.7em;
+}
+
+#introSection {}
+
+#basicCont {
+    display: inline-block;
+    float: right;
+    padding-right: 1em;
+    margin-top: 4.5em;
+}
+
+#gender {
+    text-align: right;
+}
+
+#educationDetails,
+#skills {
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-left: 0.5em;
+}
+
+#educationTable {
+    margin-left: 5em;
+    min-width: 40em;
+    margin-top: 0.4em;
+    font-size: 0.7em;
+    border-collapse: collapse;
+}
+
+#educationTable td {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+#educationTable tr:last-child td {
+    border-bottom: none;
+}
