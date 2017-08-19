@@ -97,3 +97,11 @@ body {
 .experienceDate {
     text-align: left;
 }
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
